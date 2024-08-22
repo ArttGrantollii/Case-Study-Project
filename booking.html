@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Demo - Superchat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <div class="booking-content">
+                <h1>Book free demo now</h1>
+                <p>Tell us a little about yourself, and we'll connect you with a superchat expert who can tell you more about the product and answer your questions.</p>
+            </div>
+
+            <div class="booking-form">
+                <form id="form">
+                    <label for="Full Name">Full Name</label>
+                    <input type="text" name="Full Name" placeholder="Full Name" required />
+                    <br /><br />
+              
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" placeholder="Email" required />
+                    <br /><br />
+              
+                    <label for="Password">Password</label>
+                    <input type="password" name="Password" placeholder="Password" required />
+                    <br /><br />
+              
+                    <label for="Confirm Password">Confirm Password</label>
+                    <input
+                      type="password"
+                      name="Confirm Password"
+                      placeholder="Confirm Password"
+                      required
+                    />
+                    <br /><br />
+              
+                    <label for="Phone Number">Phone Number</label>
+                    <input
+                      type="tel"
+                      name="Phone Number"
+                      placeholder="Phone Number"
+                      required
+                    />
+                    <br /><br />
+              
+                    <label for="Date of Birth">Date of Birth</label>
+                    <input
+                      type="date"
+                      name="Date of Birth"
+                      placeholder="Date of Birth"
+                      required
+                    />
+                    <br /><br />
+              
+                    <label for="gender">Gender</label>
+                    <br />
+                    <input type="radio" id="male" name="gender" value="Male" required />
+                    <label for="male">Male</label><br />
+                    <input type="radio" id="female" name="gender" value="Female" required />
+                    <label for="female">Female</label><br />
+                    <input type="radio" id="other" name="gender" value="Other" required />
+                    <label for="other">Other</label>
+                    <br /><br />
+                    
+                    <label for="Country">Country</label>
+              
+                    <select id="country" required>
+                      <option value="">Select a country</option>
+                    </select>
+                    <br /><br />
+                    <label for="Terms and Conditions">Terms and Conditions</label>
+                    <input
+                      type="checkbox"
+                      id="Terms and Conditions"
+                      name="Terms and Conditions"
+                      value="Terms and Conditions"
+                      required
+                    />
+              
+                    <button type="reset" id="reset-btn">Reset</button>
+              
+                    <input type="submit" value="Submit" id="submit-btn" /> <div id="spinner"></div> <div id="overlay"></div>
+                  </form>
+                  <br><br/>
+                  <div id="feedback" class="feedback-message"></div>
+
+                <p class="privacy-policy">For more information about how Superchat handles your personal information, please visit our <a href="#">privacy policy</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="booking.js"></script>
+</body>
+</html>

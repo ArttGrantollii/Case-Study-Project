@@ -1,0 +1,272 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #03012b;
+    color: #fff;
+}
+.navbar {
+    background-color: #03021a;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.navbar a:hover {
+    background-color: #444;
+    border-radius: 3px;
+}
+
+.navbar a.active {
+    background-color: #007bff;
+    border-radius: 3px;
+}
+
+.main-content {
+    padding: 60px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.about-us-content {
+    max-width: 600px;
+}
+
+.about-us-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-us-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* styles.css */
+
+.our-history-section {
+    padding: 60px 20px;
+    background-color: #03012b;
+    color: #fff;
+    text-align: center;
+}
+
+.our-history-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.our-history-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.our-history-image img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* ... existing styles ... */
+
+.footer {
+    background-color: #03021a;
+    color: #ccc;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-brand {
+    max-width: 250px;
+}
+
+.footer-logo {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    min-width: 160px;
+}
+
+.footer-column h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+.hiring-badge {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+}
+
+.footer-bottom img {
+    margin-top: 10px;
+    max-width: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .about-us-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-us-image img {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .about-us-content, .our-history-section p {
+        text-align: left;
+    }
+
+    .about-us-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-section .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .about-us-image {
+        max-width: 50%;
+    }
+
+    .our-history-section .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: row;
+    }
+
+    .footer-column {
+        flex: 1 1 30%;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-us-content, .our-history-section p {
+        text-align: left;
+    }
+
+    .about-us-section .container {
+        flex-direction: row;
+    }
+
+    .our-history-section .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-container {
+        flex-direction: row;
+    }
+}
