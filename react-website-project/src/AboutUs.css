@@ -7,13 +7,13 @@ body {
     background-color: #03012b;
     color: #fff;
 }
-.navbar {
+ .navbari {
     background-color: #03021a;
     padding: 10px 20px;
     text-align: center;
 }
 
-.navbar a {
+.navbari a {
     color: #fff;
     padding: 14px 20px;
     text-decoration: none;
@@ -21,15 +21,15 @@ body {
     
 }
 
-.navbar a:hover {
+.navbari a:hover {
     background-color: #444;
     border-radius: 3px;
 }
 
-.navbar a.active {
+.navbari a.active {
     background-color: #007bff;
     border-radius: 3px;
-}
+} */
 
 .main-content {
     padding: 60px;
@@ -95,7 +95,7 @@ body {
     border-radius: 10px;
 }
 
-/* ... existing styles ... */
+
 
 .footer {
     background-color: #03021a;
