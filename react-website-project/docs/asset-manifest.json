@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Case-Study-Project/static/css/main.9fa3206c.css",
+    "main.js": "/Case-Study-Project/static/js/main.8275d459.js",
+    "static/js/453.47fc1186.chunk.js": "/Case-Study-Project/static/js/453.47fc1186.chunk.js",
+    "index.html": "/Case-Study-Project/index.html",
+    "main.9fa3206c.css.map": "/Case-Study-Project/static/css/main.9fa3206c.css.map",
+    "main.8275d459.js.map": "/Case-Study-Project/static/js/main.8275d459.js.map",
+    "453.47fc1186.chunk.js.map": "/Case-Study-Project/static/js/453.47fc1186.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fa3206c.css",
+    "static/js/main.8275d459.js"
+  ]
+}
